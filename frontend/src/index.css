@@ -1,0 +1,46 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial,
+    sans-serif;
+  background-color: #f8f8f8; /* Light background for a fresh look */
+  color: #333; /* Dark gray for text */
+  line-height: 1.6; /* Improved line spacing for readability */
+  padding: 20px; /* Padding around the content */
+}
+
+input,
+button,
+label {
+  display: block; /* Each form element on a new line */
+  width: 90%; /* Width adjustment for mobile responsiveness */
+  margin: 20px auto; /* Increased margin for better spacing */
+  padding: 10px; /* Padding for comfort */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button {
+  background-color: #8b99a9; /* Button color */
+  color: #ffffff; /* Text color for contrast */
+  border: none; /* No border */
+  cursor: pointer; /* Indicates clickable */
+}
+
+.submitbtn {
+  width: 50%;
+}
+
+button:hover {
+  background-color: #5589c4; /* Slightly darker on hover */
+}
+
+table {
+  text-align: center;
+  margin: auto;
+}
+
+h2,
+th,
+tr,
+thead {
+  text-align: center;
+}
